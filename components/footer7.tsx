@@ -33,20 +33,20 @@ export default function Footer() {
 
   return (
     <footer ref={footerRef} className="relative bg-[#05050f] overflow-hidden border-t border-slate-800 pt-20 pb-12">
-      
+
       {/* Same Futuristic Background Theme */}
       <BackgroundTheme />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          
+
           {/* Logo & Bio */}
           <div className="md:col-span-5 space-y-6">
             <div className="flex items-center gap-3">
               <img
                 src="/Mostafa_Logo.png"
                 alt="Mostafa Logo"
-                className="h-14 w-auto"
+                className="h-14 w-14 rounded-full object-cover"
               />
               <div>
                 <h3 className="text-2xl font-bold text-white tracking-tight">Md. Al Mostafa</h3>
@@ -73,13 +73,13 @@ export default function Footer() {
                 { name: "Skills", href: "#skills" },
                 { name: "Contact", href: "#contact" },
               ].map((link, i) => (
-                <motion.li 
+                <motion.li
                   key={i}
                   whileHover={{ x: 4 }}
                   className="footer-element"
                 >
-                  <a 
-                    href={link.href} 
+                  <a
+                    href={link.href}
                     className="hover:text-white transition-colors duration-200 flex items-center gap-2"
                   >
                     {link.name}
@@ -92,9 +92,9 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="md:col-span-4">
             <h4 className="text-white font-semibold mb-6 text-lg footer-element">Get In Touch</h4>
-            
+
             <div className="space-y-4 text-slate-400 footer-element">
-              <a 
+              <a
                 href={`mailto:${personalData.contact.email}`}
                 className="flex items-center gap-3 hover:text-indigo-400 transition-colors"
               >
@@ -104,7 +104,7 @@ export default function Footer() {
                 <span>{personalData.contact.email}</span>
               </a>
 
-              <a 
+              <a
                 href={`tel:${personalData.contact.phone}`}
                 className="flex items-center gap-3 hover:text-purple-400 transition-colors"
               >

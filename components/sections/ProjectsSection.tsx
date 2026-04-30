@@ -15,6 +15,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import MyResume from "./MyResume";
 
 export const projects = [
   {
@@ -449,5 +450,7 @@ export default function ProjectsSection() {
         </motion.div>
       </div>
     </section>
+
+    
   );
 }
