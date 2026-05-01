@@ -56,7 +56,7 @@ export const projects = [
       "Admin control panel",
       "Responsive and user-friendly UI",
     ],
-    liveUrl: "https://edtech-frontend-flax.vercel.app/", // ⚠️ Replace with correct Home Rent link
+    liveUrl: "https://home-rent-frontend.vercel.app/", // ⚠️ Replace with correct Home Rent link
     githubUrl: "https://github.com/IEEEMOSTAFA/HomeRent-Frontend",
     featured: true,
     category: "fullstack",
