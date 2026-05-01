@@ -1,3 +1,6 @@
+
+
+
 // import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 // import { MdEmail } from "react-icons/md";
 
@@ -100,9 +103,6 @@
 
 
 
-
-
-
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
@@ -136,7 +136,7 @@ export const heroData = {
     },
     secondary: {
       label: "Explore My Work",
-      href: "/projects",        // Project page route — matches Project/project.tsx section / page
+      href: "/Project",        // Project page route — matches Project/project.tsx section / page
     },
   },
 

@@ -1,11 +1,11 @@
-import ProjectsSection from '@/components/sections/ProjectsSection'
-import React from 'react'
+// import ProjectsSection from '@/components/sections/ProjectsSection'
+// import React from 'react'
 
-export default function Project() {
-  return (
-    <div>
-        <ProjectsSection></ProjectsSection>
+// export default function Project() {
+//   return (
+//     <div>
+//         <ProjectsSection></ProjectsSection>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
