@@ -7,7 +7,6 @@ export const projects = [
       "A scalable full-stack learning platform with course management and secure Stripe payments.",
     longDescription:
       "Designed and developed a production-ready EdTech platform enabling users to browse courses, enroll, and access structured learning content. Implemented secure authentication, role-based dashboards (Admin & Student), course management system, and Stripe-powered payments. Focused on scalability, performance, and clean UI/UX.",
-    // image: "/edtech_platform.png",
     image: "/edtech_platform.png",
     technologies: [
       "Next.js",
@@ -30,6 +29,9 @@ export const projects = [
     githubUrl: "https://github.com/IEEEMOSTAFA/edtech-frontend",
     featured: true,
     category: "fullstack",
+    gradient: "from-indigo-500 via-purple-500 to-pink-500",
+    accentColor: "#6366F1",
+    number: "01",
   },
   {
     id: 2,
@@ -56,9 +58,12 @@ export const projects = [
       "Admin control panel",
       "Responsive and user-friendly UI",
     ],
-    liveUrl: "https://home-rent-frontend.vercel.app/", // ⚠️ Replace with correct Home Rent link
+    liveUrl: "https://home-rent-frontend.vercel.app/",
     githubUrl: "https://github.com/IEEEMOSTAFA/HomeRent-Frontend",
     featured: true,
     category: "fullstack",
+    gradient: "from-purple-500 via-pink-500 to-rose-500",
+    accentColor: "#A855F7",
+    number: "02",
   },
 ];
