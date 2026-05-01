@@ -376,8 +376,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="relative min-h-screen py-24 px-4 overflow-hidden"
-      style={{ background: "#05050f" }}
+      className="relative py-24 overflow-hidden bg-[#05050f]"
     >
       {/* Background orbs */}
       <FloatingOrb
@@ -450,7 +449,5 @@ export default function ProjectsSection() {
         </motion.div>
       </div>
     </section>
-
-    
   );
 }

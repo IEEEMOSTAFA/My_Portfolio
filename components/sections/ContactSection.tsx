@@ -82,7 +82,7 @@ export default function ContactSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen bg-[#05050f] overflow-hidden py-20 flex items-center">
+    <section id="contact" className="relative py-24 overflow-hidden bg-[#05050f]">
       
       {/* Exact Same Background Theme as Hero */}
       <BackgroundTheme />
