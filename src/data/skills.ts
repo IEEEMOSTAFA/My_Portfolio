@@ -18,6 +18,7 @@ export const skillsData = {
     { name: "Stripe Payment Gateway", level: 70 },
     { name: "RAG (Retrieval Augmented Generation)", level: 65 },
     { name: "CI/CD", level: 72 },
+    { name: "Github", level: 72 },
   ],
 
   others: [
